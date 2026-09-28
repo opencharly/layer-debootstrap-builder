@@ -1,7 +1,5 @@
-version: 2026.232.0520
 debootstrap-builder:
     candy:
-        version: 2026.195.0600
         description: |
             Privileged builder toolchain that bootstraps and makes bootable a Debian-family rootfs from scratch
             Tools needed to bootstrap a Debian-family rootfs from scratch via
