@@ -30,7 +30,7 @@ building the `debian-debootstrap-builder` / `ubuntu-debootstrap-builder` image
 that composes it, then using that builder from a `kind: bootstrap` VM:
 
 ```bash
-charly -C box/debian box build debian-debootstrap-builder
+charly --repo opencharly/distro-debian box build debian-debootstrap-builder
 charly --repo opencharly/distro-ubuntu box build ubuntu-debootstrap-builder
 ```
 
